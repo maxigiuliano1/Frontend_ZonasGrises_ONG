@@ -1,0 +1,205 @@
+/*GENERAL*/
+br{
+    margin-top: 50px;
+}
+h5{
+    text-transform:uppercase;
+    font-size: medium;
+    text-align: left;
+}
+
+/*ENCABEZADO Y FOOTER*/
+.encabezado, .footer{
+    background-color: cadetblue;
+    padding: 15px;
+    /*border-radius: 10px;*/
+    color: black;
+    text-align: right;
+    opacity: 0.9;
+}
+.link_img{
+    margin-right: 500px;
+}
+#slider{
+    text-align: center;
+    background-image: url("frontend/imgs/zona_grises.png");
+}
+#link{
+    color: aliceblue;
+    text-decoration: none;
+    margin-left: 40px;
+    margin-right: 50px;
+    transition-duration: 0.6s;
+}
+#link:hover{
+    color: black;
+}
+#link_login{
+    margin-right: 80px;
+    margin-left: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 8px;
+    transition-duration: 0.6s;
+}
+#link_login:hover{
+    color: black;
+    background-color:rgb(255, 232, 103);
+}
+/*SLIDER*/
+#img_slider{
+    text-align: center;
+}
+#slider{
+    background-color: rgb(58, 58, 58);
+}
+
+/*NOVEDADES*/
+.link_leer_mas{
+    border-radius: 8px;
+    transition: 0.6s;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.link_leer_mas:hover{
+    color: black;
+    background-color:rgb(255, 232, 103);
+}
+#novedades1{
+    display: inline-table;
+    margin-left: 120px;
+    background-color: whitesmoke;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 20px;
+    /*border-radius: 10px;*/
+}
+#novedades2{
+    margin-left: 10px;
+    display: inline-table;
+    background-color: whitesmoke;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 20px;
+    /*border-radius: 10px;*/
+}
+#novedades3{
+    margin-left: 10px;
+    display: inline-table;
+    background-color: whitesmoke;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 20px;
+    /*border-radius: 10px;*/
+}
+#novedades4{
+    margin-left: 10px;
+    display: inline-table;
+    background-color: whitesmoke;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 20px;
+    /*border-radius: 10px;*/
+}
+
+/*CONTRIBUSIONES*/
+#contribuciones{
+    background-color: whitesmoke;
+    /*border-radius: 10px;*/
+}
+#contribuciones_1{
+    text-transform:uppercase;
+    text-align: center;
+}
+#contribuciones_1_titulo{
+    font-size: 50px;
+}
+#contribuciones_1_p{
+    font-size: medium;
+    text-transform: initial;
+}
+.parrafo_contribucion{
+    font-size: medium;
+    text-transform: initial;
+}
+#contribuciones_2{
+    text-align: center;
+    display: block;
+    font-size: small;
+    display: inline-block;
+    margin-left: 360px;
+}
+#contribuciones_3{
+    text-align: center;
+    display: block;
+    font-size: small;
+    display: inline-block;
+    margin-left: 160px;
+
+}
+#contribuciones_4{
+    text-align: center;
+    display: block;
+    font-size: small;
+    display: inline-block;
+    margin-left: 160px;
+}
+
+/*PIE DE PAGINA*/
+#link_footer{
+    color: aliceblue;
+    margin-top: 5px;
+    text-decoration: none;
+    display: flex;
+}
+#link_footer:hover{
+    color: black;
+    transition-duration: 0.6s;
+}
+#link_footer_redes{
+    margin-left: 10px;
+}
+.areas{
+    text-align: center;
+    display: inline-block;
+    margin-left: 200px;
+}
+.organizacion{
+    text-align: center;
+    margin-left: 200px;
+    display: inline-block;
+}
+.redes{
+    text-align: center;
+    display: inline-block;
+    margin-left: 200px;
+    padding-right: 300px;
+    padding-bottom: 30px;
+}
+.img_footer{
+    text-align: center;
+    display: inline-block;
+    padding-right: 0px;
+    padding-top: 30px;
+}
+.volver_arriba{
+    padding-bottom: 10px;
+}
+#volver_arriba{
+    text-align: right;
+    display: inline-block;
+    text-decoration: none;
+    color: aliceblue;
+    margin-right: 40px;
+    transition-duration: 0.6s;
+}
+#volver_arriba:hover{
+    color: black;
+}
+#copyrights{
+    padding-right: 65px;
+    text-align: left;
+    display: inline-block;
+    color: aliceblue;
+    margin-right: 1150px;
+}
