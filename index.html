@@ -2,7 +2,7 @@
 <html lang="es">
 <head>
     <meta charset='utf-8'>
-    <title>Zonas Grises</title>
+    <title id="title">Zonas Grises</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <meta name="description" content="frontend ong zonas grises">
     <meta name="keywords" content="HTML, CSS, JavaScript">
@@ -14,7 +14,7 @@
     <!--ENCABEZADO-->
     <header class="encabezado" id="header">
         <nav>
-            <img class="link_img" src="imgs/zona_grises.png" width="200" height="50">
+            <img id="image-ong" class="link_img" src="imgs/zona_grises.png" width="200" height="50">
             <a class="text-decoration-none" id="link" href="#">Inicio</a>
             <a class="text-decoration-none" id="link" href="#">Nosotros</a>
             <a class="text-decoration-none" id="link" href="#">Formas de ayudar</a>
@@ -34,28 +34,28 @@
     <br>
     <!--NOVEDADES-->
     <div id="">
-        <div id="novedades1">
-            <img class="container" src="imgs/novedades.png" alt="Imagen Novedad" height="200" width="200">
-            <h3>Reunion para nuevos y nuevas</h3>
-            <p class="text-sm-left">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <div class="col-sm-2" id="novedades1">
+            <img id="image0" class="container" src="imgs/novedades.png" alt="Imagen Novedad" height="200" width="200">
+            <h3 id="name0">Reunion para nuevos y nuevas</h3>
+            <p id="content0" class="text-sm-left">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
             <button class="btn-warning link_leer_mas">Leer Más</button>
         </div>
-        <div id="novedades2">
-            <img class="container" src="imgs/novedades.png" alt="Imagen Novedad" height="200" width="200">
-            <h3>Reunion para nuevos y nuevas</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <div class="col-sm-2" id="novedades2">
+            <img id="image1" class="container" src="imgs/novedades.png" alt="Imagen Novedad" height="200" width="200">
+            <h3 id="name1">Reunion para nuevos y nuevas</h3>
+            <p id="content1">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
             <button class="btn-warning link_leer_mas">Leer Más</button>
         </div>
-        <div id="novedades3">
-            <img class="container" src="imgs/novedades.png" alt="Imagen Novedad" height="200" width="200">
-            <h3>Reunion para nuevos y nuevas</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <div class="col-sm-2" id="novedades3">
+            <img id="image2" class="container" src="imgs/novedades.png" alt="Imagen Novedad" height="200" width="200">
+            <h3 id="name2">Reunion para nuevos y nuevas</h3>
+            <p id="content2">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
             <button class="btn-warning link_leer_mas">Leer Más</button>
         </div>
-        <div id="novedades4">
-            <img class="container" src="imgs/novedades.png" alt="Imagen Novedad" height="200" width="200">
-            <h3>Reunion para nuevos y nuevas</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <div class="col-sm-2" id="novedades4">
+            <img id="image3" class="container" src="imgs/novedades.png" alt="Imagen Novedad" height="200" width="200">
+            <h3 id="name3">Reunion para nuevos y nuevas</h3>
+            <p id="content3">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
             <button class="btn-warning link_leer_mas">Leer Más</button>
         </div>
     </div>
@@ -66,28 +66,28 @@
             <h3 id="contribuciones_1_titulo"><b>¿Cómo nos podés ayudar?</b></h3>
             <p id="contribuciones_1_p">Tenemos diversas maneras para que puedas contribuir con nosotros</p>
         </div>
-        <div class="text-sm-center" id="contribuciones_2">
+        <div class="col-sm-2 text-sm-center" id="contribuciones_2">
             <img src="imgs/regalo.png" alt="regalos especiales" height="50" width="50">
             <h3><b>Regalos especiales</b><h3>
-            <p class="parrafo_contribucion">Contamos con un proyecto que convoca </p>
-            <p class="parrafo_contribucion"> regalos personalizados para todos/as </p>
-            <p class="parrafo_contribucion">los/as niños/as asistidos/as </p>
-            <p class="parrafo_contribucion">y sus hermanitos/as.</p>
+            <p style="font-size: medium; text-transform: initial;">Contamos con un proyecto que convoca
+                 regalos personalizados para todos/as
+                los/as niños/as asistidos/as
+                y sus hermanitos/as.</p>
         </div>
-        <div class="text-sm-center" id="contribuciones_3">
+        <div class="col-sm-2 text-sm-center" id="contribuciones_3">
             <img src="imgs/billetes.png" alt="Donaciones/Colectas" height="50" width="50">
             <h3><b>Donaciones/Colectas</b><h3>
-            <p class="parrafo_contribucion">Llevamos a cabo durante el año cuatro </p>
-            <p class="parrafo_contribucion">colectas de alimentos de elementos de </p>
-            <p class="parrafo_contribucion">higiene y de ropa.</p>
+            <p style="font-size: medium; text-transform: initial;">Llevamos a cabo durante el año cuatro
+                colectas de alimentos de elementos de
+                higiene y de ropa.</p>
         </div>
-        <div class="text-sm-center" id="contribuciones_4">
+        <div class="col-sm-2 text-sm-center" id="contribuciones_4">
             <img src="imgs/personas.png" alt="madrinaje y padrinaje" height="50" width="50">
             <h3><b>Madrinaje/Padrinaje</b><h3>
-            <p class="parrafo_contribucion">Apuntamos a desarrollar </p>
-            <p class="parrafo_contribucion">madrinas y padrinos que dediquen </p>
-            <p class="parrafo_contribucion">tiempo al acompañamiento de </p>
-            <p class="parrafo_contribucion">las familias integralmente</p>
+            <p style="font-size: medium; text-transform: initial;">Apuntamos a desarrollar
+                madrinas y padrinos que dediquen
+                tiempo al acompañamiento de
+                las familias integralmente</p>
         </div>
     </div>    
     <br>
@@ -110,17 +110,21 @@
         </div>       
         <div class="redes">
             <h5>NUESTRAS REDES</h5>
-            <a id="link_footer_redes" href="#"><img src="imgs/linkedin.svg" height="30" width="30"></a>
-            <a id="link_footer_redes" href="#"><img src="imgs/instagram.svg" height="30" width="30"></a>
-            <a id="link_footer_redes" href="#"><img src="imgs/facebook.svg" height="30" width="30"></a>
+            <a id="linkedin" class="link_footer_redes" href="#"><img src="imgs/linkedin.svg" height="30" width="30"></a>
+            <a id="instagram" class="link_footer_redes" href="#"><img src="imgs/instagram.svg" height="30" width="30"></a>
+            <a id="facebook" class="link_footer_redes" href="#"><img src="imgs/facebook.svg" height="30" width="30"></a>
         </div>
         <div class="volver_arriba">
             <p id="copyrights">2021 by Maximiliano Gabriel, Giuliano. All Rights Reserved</p>
             <a id="volver_arriba" href="#">Volver arriba <img src="imgs/flecha_arriba.png" width="15" height="15"></a>
         </div>
     </footer>
-    <script type="text/javascript" th:href="js/jquery-3.3.1.slim.min.js"></script>
-    <script type="text/javascript" th:href="js/popper.min.js"></script>
-    <script type="text/javascript" th:href="js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.datatables.net/1.10.22/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/buttons/1.6.4/js/dataTables.buttons.min.js"></script>
+    <script src="https://cdn.datatables.net/1.10.22/js/dataTables.bootstrap4.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/main.js"></script>
 </body>
 </html>
