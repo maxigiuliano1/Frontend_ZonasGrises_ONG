@@ -16,8 +16,8 @@
         <form method="POST" name="register" id="register">
             <h2 style="font-size: 30px; font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; margin: 0 0 30px; color: aliceblue;" class="text-center">Register</h2>
             <div>
-                <label style="color: aliceblue;">Username</label>
-                <input type="text" id="username" name="username" required="true" 
+                <label style="color: aliceblue;">FirstName</label>
+                <input type="text" id="firstname" name="firstname" required="true" 
                 style="width: 100%; padding: 10px; border-radius: 10px; border-bottom: 10px; margin-bottom: 30px;">
             </div>
             <div>
@@ -29,6 +29,18 @@
                 <label style="color: aliceblue;">Email</label>
                 <input type="email" id="email" name="email" required="true" 
                 style="width: 100%; padding: 10px; border-radius: 10px; border-bottom: 10px; margin-bottom: 30px;">
+            </div>
+            <div>
+                <label style="color: aliceblue;">Role</label>
+                <select id="role" name="role" required="true"
+                style="width: 100%; padding: 10px; border-radius: 10px; border-bottom: 2px; margin-bottom: 30px;">
+                    <option value="user" selected>user</option>
+                </select>
+            </div>
+            <div>
+                <label style="color: aliceblue;">Image</label>
+                <input type="file" id="image" name="image" required="false"
+                style="width: 100%; padding: 10px; border-radius: 10px; border-bottom: 2px; margin-bottom: 30px;">
             </div>
             <div>
                 <label style="color: aliceblue;">Password</label>
