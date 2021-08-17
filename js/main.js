@@ -29,27 +29,18 @@ function getOrganization() {
             $('#facebook').attr({"href":organization.facebookUrl});
         });
 }
-/*
-var settings = {
-    "url": "http://localhost:8080/contacts",
-    "method": "POST",
-    "timeout": 0,
-    "headers": {
-          "Content-Type": "application/json"
-    },
-    "data": JSON.stringify({
-      "id": 4,
-      "name": "Pepe",
-      "phone": "44442222",
-      "email": "pepito@alkemy.com",
-      "message": "address",
-      "deleted": true
-    }),
-  };
-  
-$.ajax(settings).done(function (response) {
-    console.log(response);
-});
+
+let guardarDatos = ()=>{
+    datos = {
+        firstname: $('#firstname').val(),
+        lastname: $('#lastname').val(),
+        email: $('#email').val(),
+        role: $('#role').val(),
+        image: $('#image').val(),
+        password: $('#password').val()
+    }
+    console.log(datos); 
+}
 
 function postNews() {
     $('#bot-submit').click(function () {
@@ -73,4 +64,4 @@ function postNews() {
         });
 
     });
-}*/
+}

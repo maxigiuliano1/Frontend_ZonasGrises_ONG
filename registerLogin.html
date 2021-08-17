@@ -13,7 +13,7 @@
         <a style="text-decoration: none; font-size: 18px; color: aliceblue;" href="index.html">Volver</a>
     </div>
     <div class="col-md-8" style="margin: 50px auto; width: 400px; padding: 30px; background: rgba(0, 0, 0, .4); border-radius: 10px; box-shadow: 5px 5px 15px black;">
-        <form method="POST" name="register" id="register">
+        <form onsubmit="return false;" name="register" id="register">
             <h2 style="font-size: 30px; font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; margin: 0 0 30px; color: aliceblue;" class="text-center">Register</h2>
             <div>
                 <label style="color: aliceblue;">FirstName</label>
@@ -48,7 +48,7 @@
                 style="width: 100%; padding: 10px; border-radius: 10px; border-bottom: 2px; margin-bottom: 30px;">
             </div>
             <div class="text-center">
-                <input type="submit" value="Register" style="background-color: rgb(255, 179, 86); border: none; letter-spacing: 3px; text-transform: uppercase; cursor: pointer; padding: 15px; margin-top: 20px; border-radius: 10px;">
+                <button type="submit" onclick="guardarDatos()" style="background-color: rgb(255, 179, 86); border: none; letter-spacing: 3px; text-transform: uppercase; cursor: pointer; padding: 15px; margin-top: 20px; border-radius: 10px;">Register</button>
             </div>
         </form>
     </div>
